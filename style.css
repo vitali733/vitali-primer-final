@@ -1,0 +1,63 @@
+body{
+    padding: 1% 0% 0% 3%;
+    max-width: 1600px;
+    min-width: 1000px;
+}
+
+.main-strip{
+display: flex;
+justify-content: flex-start;
+width: 80%
+
+}
+
+header h1{
+    font-weight: bold;
+    width: 80%;
+}
+
+.articles{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.article{
+    padding-right: 1%;
+    width: 100%
+    
+}
+
+.article img{
+    width: 100%;
+}
+
+.facts{
+    padding: 0% 1% 1% 1%;
+    width: 30%;
+    background-color: rgb(255, 243, 234);
+    box-shadow: 3px 3px;
+    height:fit-content;
+    
+}
+
+.facts ul{
+    list-style-type: none;
+}
+
+.facts li{
+    padding: 0% 0% 10% 0%;
+    border: 1px;
+}
+
+footer{
+    width:56%;
+    display: flex;
+    justify-content: center;    
+}
+
+footer p{
+font-weight: bold;
+    
+}
